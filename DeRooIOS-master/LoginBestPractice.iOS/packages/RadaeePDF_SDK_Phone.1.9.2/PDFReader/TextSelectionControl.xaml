@@ -1,0 +1,39 @@
+﻿<UserControl
+    x:Class="PDFReader.TextSelectionControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PDFReader"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="400">
+    
+    <Grid Background="{StaticResource PhoneChromeBrush}">
+        <Popup x:Name="SelectionDialogPopup" Loaded="SelectionPopup_Loaded">
+            <StackPanel Width="400" Height="550" x:Name="PopupContainer" Orientation="Horizontal">
+                <StackPanel.Background>
+                    <SolidColorBrush Color="Gray" Opacity="0.9"/>
+                </StackPanel.Background>
+                <Grid VerticalAlignment="Center"  HorizontalAlignment="Center" Width="400" Height="550">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" Text="Select operation for selected texts:" TextWrapping="Wrap" Grid.Column="0" Foreground="White" FontSize="25"  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,20,0,0" Grid.ColumnSpan="2"/>
+                    <StackPanel Orientation="Vertical" Grid.Row="1" Margin="60, 0, 0, 0">
+                        <RadioButton GroupName="mOperations" x:Name="mHighlightRadio1" Content="Highlight" Tag="0" Click="Radio_Click"/>
+                        <RadioButton GroupName="mOperations" x:Name="mUnderlineRadio" Content="Under line" Tag="1" Click="Radio_Click"/>
+                        <RadioButton GroupName="mOperations" x:Name="mStrikOutRadio" Content="Strik out" Tag="2" Click="Radio_Click"/>
+                        <RadioButton GroupName="mOperations" x:Name="mHighlightRadio2" Content="Highlight without round corner" Tag="3" Click="Radio_Click"/>
+                        <RadioButton GroupName="mOperations" x:Name="mSquigglyunderline" Content="Squiggly underline" Tag="4" Click="Radio_Click"/>
+                        <!--<RadioButton GroupName="mOperations" x:Name="mCopyRadio" Content="Copy to clipboard" Tag="5" Click="Radio_Click"/>-->
+                    </StackPanel>
+                    <Button x:Name="button_cancel" Grid.Row="2" BorderThickness="1" Content="Cancel" Height="60" FontSize="16" FontWeight="Normal" Margin="50,0,0,20" Tapped="buttonTapped" HorizontalAlignment="Left"/>
+                    <Button x:Name="button_ok" Grid.Row="2" Grid.Column="1" Content="OK" Height="60" FontSize="16" FontWeight="Normal" Margin="0,0,50,20" Tapped="buttonTapped" HorizontalAlignment="Right"/>
+                </Grid>
+            </StackPanel>
+        </Popup>
+    </Grid>
+</UserControl>

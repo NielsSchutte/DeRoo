@@ -1,0 +1,112 @@
+﻿<Page
+    x:Class="PDFReader.PDFSettingsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource TextStyleMediumFontSize}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    mc:Ignorable="d">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock Text="Radaee PDF Reader" FontSize="24"/>
+            <TextBlock Text="Settings" Margin="9,-7,0,0"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <ScrollViewer ScrollViewer.VerticalScrollBarVisibility="Auto" Grid.Row="1" >
+            <Grid x:Name="ContentPanel" Margin="12,0,12,0">
+                <StackPanel Orientation="Vertical">
+                    <ComboBox Name="mRenderModeListPicker" Header="Render mode" Margin="0,20,0,0"/>
+                    <!--<toolkit:ListPicker Name="mRenderModeListPicker" Header="Render mode" FullModeHeader="Render Mode" Margin="0,20,0,0"/>-->
+                    <ComboBox Name="mViewModeListPicker" Header="View mode" Margin="0,20,0,0"/>
+
+                    <!--<toolkit:ListPicker Name="mViewModeListPicker" Header="View mode" FullModeHeader="View Mode" Margin="0,20,0,0"/>-->
+
+                    <StackPanel Orientation="Horizontal" Margin="0,20,0,0">
+                        <TextBlock Text="Display text from right to left:" VerticalAlignment="Center" Foreground="#ff999999" />
+                        <CheckBox x:Name="mRTLCheckBox" Click="mRTLCheckBox_Click"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,20,0,0">
+                        <TextBlock Text="Ink annotation line width( 0.5-8 ):" VerticalAlignment="Center" Foreground="#ff999999" />
+                        <TextBox x:Name="mInkWidth" Width="80"  TextChanged="mInkWidth_TextChanged" InputScope="Number"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,20,0,0">
+                        <TextBlock Text="Ink annotation color:" VerticalAlignment="Center" Foreground="#ff999999" />
+                        <Rectangle x:Name="mInkColor" Tapped="mInkColor_Tap" Width="30" Height="30"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,20,0,0">
+                        <TextBlock Text="Rectangle annotation line width( 0.5-8 ):" VerticalAlignment="Center" Foreground="#ff999999" />
+                        <TextBox x:Name="mRectWidth" Width="80" InputScope="Number" TextChanged="mRectWidth_TextChanged"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,20,0,0">
+                        <TextBlock Text="Rectangle annotation color:" VerticalAlignment="Center" Foreground="#ff999999" />
+                        <Rectangle x:Name="mRectColor" Tapped="mRectColor_Tap" Width="30" Height="30"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,20,0,0">
+                        <TextBlock Text="Ellilpse annotation line width( 0.5-8 ):" VerticalAlignment="Center" Foreground="#ff999999" />
+                        <TextBox x:Name="mEllilpseWidth" Width="80" InputScope="Number" TextChanged="mEllilpseWidth_TextChanged"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,20,0,0">
+                        <TextBlock Text="Ellilpse annotation color:" VerticalAlignment="Center" Foreground="#ff999999" />
+                        <Rectangle x:Name="mEllipseColor" Tapped="mEllipseColor_Tap" Width="30" Height="30"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,20,0,0">
+                        <TextBlock Text="Highlight color:" VerticalAlignment="Center" Foreground="#ff999999" />
+                        <Rectangle x:Name="mHighlightColor" Tapped="mMarkupColor_Tap" Width="30" Height="30" Tag="0"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,20,0,0">
+                        <TextBlock Text="Underline color:" VerticalAlignment="Center" Foreground="#ff999999" />
+                        <Rectangle x:Name="mUnderlineColor" Tapped="mMarkupColor_Tap" Width="30" Height="30" Tag="1"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,20,0,0">
+                        <TextBlock Text="Strik out color:" VerticalAlignment="Center" Foreground="#ff999999" />
+                        <Rectangle x:Name="mStrikoutColor" Tapped="mMarkupColor_Tap" Width="30" Height="30" Tag="2"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,20,0,0">
+                        <TextBlock Text="Highlight(without round corner) color:" VerticalAlignment="Center" Foreground="#ff999999" />
+                        <Rectangle x:Name="mHighlightColor2" Tapped="mMarkupColor_Tap" Width="30" Height="30" Tag="3"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,20,0,0">
+                        <TextBlock Text="Squiggly underline color:" VerticalAlignment="Center" Foreground="#ff999999" />
+                        <Rectangle x:Name="mSquigglyUnderlineColor" Tapped="mMarkupColor_Tap" Width="30" Height="30" Tag="4"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,20,0,0">
+                        <TextBlock Text="Casesensitive while search text:" VerticalAlignment="Center" Foreground="#ff999999" />
+                        <CheckBox x:Name="mMatchCase" Click="mMatchCase_Click"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,20,0,0">
+                        <TextBlock Text="Search whole word:" VerticalAlignment="Center" Foreground="#ff999999" />
+                        <CheckBox x:Name="mWholeword" Click="mWholeword_Click"/>
+                    </StackPanel>
+
+                </StackPanel>
+            </Grid>
+        </ScrollViewer>
+    </Grid>
+
+</Page>

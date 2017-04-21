@@ -1,0 +1,16 @@
+/Users/deroo/Downloads/DeRooIOS-master/LoginBestPractice.iOS/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/deroo/Downloads/DeRooIOS-master/LoginBestPractice.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/ibtool/_BundleResourceWithLogicalName.items
+/Users/deroo/Downloads/DeRooIOS-master/LoginBestPractice.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/actool/_PartialAppManifest.items
+/Users/deroo/Downloads/DeRooIOS-master/LoginBestPractice.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/actool/_BundleResourceWithLogicalName.items
+/Users/deroo/Downloads/DeRooIOS-master/LoginBestPractice.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/optimized/de-roo.png
+/Users/deroo/Downloads/DeRooIOS-master/LoginBestPractice.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/optimized/
+/Users/deroo/Downloads/DeRooIOS-master/LoginBestPractice.iOS/bin/iPhoneSimulator/Debug/LoginBestPractice.iOS.exe.mdb
+/Users/deroo/Downloads/DeRooIOS-master/LoginBestPractice.iOS/bin/iPhoneSimulator/Debug/LoginBestPractice.iOS.exe
+/Users/deroo/Downloads/DeRooIOS-master/LoginBestPractice.iOS/obj/iPhoneSimulator/Debug/LoginBestPractice.iOS.exe
+/Users/deroo/Downloads/DeRooIOS-master/LoginBestPractice.iOS/obj/iPhoneSimulator/Debug/LoginBestPractice.iOS.exe.mdb
+/Users/deroo/Downloads/DeRooIOS-master/LoginBestPractice.iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Users/deroo/Downloads/DeRooIOS-master/LoginBestPractice.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-10.3/ibtool/_BundleResourceWithLogicalName.items
+/Users/deroo/Downloads/DeRooIOS-master/LoginBestPractice.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-10.3/actool/_PartialAppManifest.items
+/Users/deroo/Downloads/DeRooIOS-master/LoginBestPractice.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-10.3/actool/_BundleResourceWithLogicalName.items
+/Users/deroo/Downloads/DeRooIOS-master/LoginBestPractice.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-10.3/optimized/de-roo.png
+/Users/deroo/Downloads/DeRooIOS-master/LoginBestPractice.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-10.3/optimized/

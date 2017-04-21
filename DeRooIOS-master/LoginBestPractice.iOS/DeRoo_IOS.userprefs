@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{84563AF5-67F4-46D6-B49C-BF8D718F3C64}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MainStoryboard.storyboard">
+    <Files>
+      <File FileName="LogoutViewController.cs" Line="17" Column="10" />
+      <File FileName="HandboekViewController.cs" Line="22" Column="3" />
+      <File FileName="LoginPageViewController.cs" Line="18" Column="38" />
+      <File FileName="HandboekViewController.designer.cs" Line="1" Column="1" />
+      <File FileName="ToolboxViewController.cs" Line="11" Column="4" />
+      <File FileName="Main.cs" Line="17" Column="1" />
+      <File FileName="MainStoryboard.storyboard" />
+      <File FileName="Login.cs" Line="29" Column="71" />
+      <File FileName="AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="DatabaseData.cs" Line="1" Column="1" />
+      <File FileName="DataStorage.cs" Line="1" Column="1" />
+      <File FileName="Encrypter.cs" Line="1" Column="1" />
+      <File FileName="Entitlements.plist" />
+      <File FileName="Info.plist" />
+      <File FileName="FormulierenController.cs" Line="12" Column="4" />
+      <File FileName="../../DeRoo/DeRoo/Activities/FormCreationActivity.cs" Line="47" Column="35" />
+      <File FileName="../../DeRoo/DeRoo/Activities/FormSelectionActivity.cs" Line="53" Column="97" />
+      <File FileName="Formulieren.cs" Line="13" Column="3" />
+      <File FileName="Formulieren.designer.cs" Line="26" Column="10" />
+      <File FileName="FormulierenViewController.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.DeRoo__IOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.C9282889-9998-40D2-9742-B97198703E25" />
+</Properties>

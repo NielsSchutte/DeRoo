@@ -1,0 +1,11 @@
+/Users/deroo/Downloads/LoginForiOS-master 2/LoginBestPractice.iOS/obj/iPhone/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/deroo/Downloads/LoginForiOS-master 2/LoginBestPractice.iOS/obj/iPhone/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/deroo/Downloads/LoginForiOS-master 2/LoginBestPractice.iOS/obj/iPhone/Debug/actool/_PartialAppManifest.items
+/Users/deroo/Downloads/LoginForiOS-master 2/LoginBestPractice.iOS/obj/iPhone/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/deroo/Downloads/LoginForiOS-master 2/LoginBestPractice.iOS/obj/iPhone/Debug/optimized/de-roo.png
+/Users/deroo/Downloads/LoginForiOS-master 2/LoginBestPractice.iOS/obj/iPhone/Debug/optimized/
+/Users/deroo/Downloads/LoginForiOS-master 2/LoginBestPractice.iOS/bin/iPhone/Debug/LoginBestPractice.iOS.exe.mdb
+/Users/deroo/Downloads/LoginForiOS-master 2/LoginBestPractice.iOS/bin/iPhone/Debug/LoginBestPractice.iOS.exe
+/Users/deroo/Downloads/LoginForiOS-master 2/LoginBestPractice.iOS/obj/iPhone/Debug/LoginBestPractice.iOS.exe
+/Users/deroo/Downloads/LoginForiOS-master 2/LoginBestPractice.iOS/obj/iPhone/Debug/LoginBestPractice.iOS.exe.mdb
+/Users/deroo/Downloads/LoginForiOS-master 2/LoginBestPractice.iOS/bin/iPhone/Debug/Newtonsoft.Json.dll

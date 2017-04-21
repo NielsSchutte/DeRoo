@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/ibtool-link/LaunchScreen.nib">
+      <LogicalName>LaunchScreen.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/ibtool-link/MainStoryboard.storyboardc/152-view-153.nib">
+      <LogicalName>MainStoryboard.storyboardc/152-view-153.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/ibtool-link/MainStoryboard.storyboardc/207-view-208.nib">
+      <LogicalName>MainStoryboard.storyboardc/207-view-208.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/ibtool-link/MainStoryboard.storyboardc/23-view-29.nib">
+      <LogicalName>MainStoryboard.storyboardc/23-view-29.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/ibtool-link/MainStoryboard.storyboardc/25-view-33.nib">
+      <LogicalName>MainStoryboard.storyboardc/25-view-33.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/ibtool-link/MainStoryboard.storyboardc/Info.plist">
+      <LogicalName>MainStoryboard.storyboardc/Info.plist</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/ibtool-link/MainStoryboard.storyboardc/LoginPageViewController.nib">
+      <LogicalName>MainStoryboard.storyboardc/LoginPageViewController.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/ibtool-link/MainStoryboard.storyboardc/MainTabBarController.nib">
+      <LogicalName>MainStoryboard.storyboardc/MainTabBarController.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/ibtool-link/MainStoryboard.storyboardc/UITableViewController-152.nib">
+      <LogicalName>MainStoryboard.storyboardc/UITableViewController-152.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+  </ItemGroup>
+</Project>
